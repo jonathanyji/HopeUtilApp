@@ -1,0 +1,14 @@
+{
+    "Servers": {
+            "1": {
+                "Name": "hopeutilsdb",
+                "Group": "Servers",
+                "Host": "postgres-db",
+                "Port": 5432,
+                "MaintenanceDB": "hope_church_db",
+                "Username": "user",
+                "Password": "admin",
+                "SSLMode": "prefer"
+            }
+        }
+}
