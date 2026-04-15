@@ -1,1 +1,8 @@
 .env
+
+# Golang
+
+**/tmp/
+**/bin/
+**/*.test
+**/vendor/
