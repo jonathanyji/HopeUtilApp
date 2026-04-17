@@ -1,13 +1,13 @@
 package health
 
 import (
-	"hope-backend-gin/internal/response"
+	"hope-backend-gin/router/response"
 
 	"github.com/gin-gonic/gin"
 )
 
 func RegisterRoutes(rg *gin.RouterGroup) {
 	rg.GET("/health", func(c *gin.Context) {
-    response.OK(c, gin.H{"status": "ok"})
-  })
+		response.OK(c, gin.H{"status": "ok"})
+	})
 }

@@ -1,7 +1,7 @@
 package router
 
 import (
-	"hope-backend-gin/internal/health"
+	"hope-backend-gin/router/health"
 
 	"github.com/gin-gonic/gin"
 )

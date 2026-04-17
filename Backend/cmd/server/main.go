@@ -1,6 +1,6 @@
 package main
 
-import "hope-backend-gin/internal/router"
+import "hope-backend-gin/router"
 
  func main() {
      r := router.New()
